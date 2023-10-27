@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single page Currency Convertor .The main speciality of this app is that the values are not hard coded infact all the data comes from an API . Hence you will get very accurate converted prices from one currency to another .
 
 Currently, two official plugins are available:
 
