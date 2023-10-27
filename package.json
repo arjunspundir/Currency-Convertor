@@ -1,4 +1,6 @@
-{
+{  
+  "homepage": "https://arjunspundir.github.io/Currency-Convertor/",
+
   "name": "currency-convertor",
   "private": true,
   "version": "0.0.0",
