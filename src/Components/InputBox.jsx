@@ -7,13 +7,12 @@ function InputBox({
   onCurrencyChange,
   currencyOptions = [],
   selectCurrency = "usd",
-  disabled,
-  className = "",
+  disabled
 }) {
   return (
-    <div className={`bg-gray-200 p-3 rounded-lg text-sm flex ${className}`}>
+    <div className={`bg-gray-200 p-3 rounded-lg text-sm flex `}>
       <div className="w-1/2">
-        <label className="text-gray-800 mb-2 inline-block text-white">
+        <label className="text-gray-800 mb-2 inline-block text-black-900">
           {label}
         </label>
         <input
@@ -26,7 +25,7 @@ function InputBox({
         />
       </div>
       <div className="w-1/2 flex flex-wrap justify-end text-right">
-        <p className="text-gray-800 mb-2 w-full text-white">Currency Type</p>
+        <p className="text-gray-800 mb-2 w-full text-black-900">Currency Type</p>
         <select
           className="rounded-lg px-2 py-2 bg-green-800 hover:bg-green-600 cursor-pointer outline-none text-white"
           value={selectCurrency}
